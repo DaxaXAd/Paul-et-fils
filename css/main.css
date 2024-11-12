@@ -105,6 +105,11 @@ p {
   padding-bottom: 20px;
   text-align: center;
 }
+.devis__title h2 {
+  color: #ffffff;
+  font-weight: 900;
+  font-size: x-large;
+}
 
 .form__devis {
   background-color: #ff5929;
@@ -113,6 +118,7 @@ p {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding-bottom: 20px;
 }
 .form__devis .row {
   display: flex;
@@ -196,7 +202,41 @@ p {
 }
 .footer .license {
   text-align: left;
+  padding-bottom: 15px;
 }
 .footer .license li {
+  padding-bottom: 4px;
+  list-style: none;
+}
+.footer .license {
+  text-align: left;
+  padding-bottom: 15px;
+}
+.footer .license li {
+  padding-bottom: 4px;
+  list-style: none;
+}
+.footer .contact {
+  text-align: left;
+  padding-bottom: 15px;
+}
+.footer .contact li {
+  padding-bottom: 4px;
+  list-style: none;
+}
+.footer .horaires {
+  text-align: left;
+  padding-bottom: 15px;
+}
+.footer .horaires li {
+  padding-bottom: 4px;
+  list-style: none;
+}
+.footer .resources {
+  text-align: left;
+  padding-bottom: 15px;
+}
+.footer .resources li {
+  padding-bottom: 4px;
   list-style: none;
 }/*# sourceMappingURL=main.css.map */
