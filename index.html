@@ -5,42 +5,124 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <!-- Font-family Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
     <title>Paul-et-fils</title>
 </head>
 
-<body> 
-    <header>
-        <div class="header-menu">
-            <div class="header-menu_logo"> <!-- Contain logo for Paul-et-fils -->
-                <img src="" alt="logo" title="">
+<body>
+    <header> <!-- Header with our menu nav -->
+        <div class="header__menu">
+            <div class="header__menu-logo"> <!-- Contain logo for Paul-et-fils -->
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M112 0C85.5 0 64 21.5 64 48l0 48L16 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 208 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 160l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 176 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 224l-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 144 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 288l0 128c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-64 0-32 0-18.7c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7L416 96l0-48c0-26.5-21.5-48-48-48L112 0zM544 237.3l0 18.7-128 0 0-96 50.7 0L544 237.3zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
+                </svg>
             </div>
-            <nav>
+            <nav> <!-- contain link to out different pages -->
                 <ul>
                     <li>
                         <a href="index.html">Accueil</a>
                     </li>
                     <li>
-                        <a href="#">A propos</a>
+                        <a href="about.html">A propos</a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="services.html">Services</a>
                     </li>
                     <li>
-                        <a href="#">Conseils</a>
+                        <a href="conseils.html">Conseils</a>
                     </li>
                     <li>
-                        <a href="#">Contact</a>
+                        <a href="contact.html">Contact</a>
                     </li>
                 </ul>
             </nav>
+            <a href="#devis">
+                <button>Devis gratuit</button>
+            </a>
         </div>
+
     </header>
 
     <main>
 
+        <section>
+            <div class="hero__img">
+                <div class="hero__text">
+                    <h1>Déménager n'a jamais été aussi facile</h1>
+                </div>
+                <div class="hero__img-infos">
+                    <p class="call"><strong>APPELEZ-NOUS</strong> <br>01 23 45 67 89</p>
+                    <p></p>
+                </div>
+            </div>
+        </section>
+
+        <section> <!-- section à propos -->
+            <div>
+                <h2>Paul et fils <br>Déménagement</h2>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iure necessitatibus cumque atque optio
+                    molestiae, repellendus voluptates vero pariatur! A veniam voluptatem libero voluptatibus debitis
+                    tempore suscipit nulla commodi repudiandae fuga.</p>
+                <button>A propos de nous</button>
+                <img src="images/ho——e-porte-carton.webp" alt="">
+            </div>
+
+        </section>
+
+        <section> <!-- section services -->
+            <h2></h2>
+            <div class="grid__services">
+
+                <div class="grid__container">
+                    <div>
+                        <img src="images/2hommes-camionnette.webp" alt="2 hommes et camionnette">
+                        <h2>Déménagement à proximité</h2>
+                        <p>Paragraphe. Cliquez ici pour ajoutez votre texte.<br> Présentez-vous et votre entreprise.</p>
+                        <button class="btn__orange">Lire plus</button>
+                    </div>
+
+                    <div>
+                        <img src="images/camionnette.webp" alt="camionnette">
+                        <h2></h2>
+                        <p></p>
+                        <button class="btn__orange">Lire plus</button>
+                    </div>
+
+                    <div>
+                        <img src="images/garage.webp" alt="garage">
+                        <h2></h2>
+                        <p></p>
+                        <button class="btn__orange">Lire plus</button>
+                    </div>
+
+                    <div>
+                        <img src="images/carton.webp" alt="carton">
+                        <h2></h2>
+                        <p></p>
+                        <a href="services.html">
+                            <button class="btn__orange">Lire plus</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+        <section> <!-- section devis -->
+
+        </section>
+
     </main>
 
     <footer>
+        <div class="footer"></div>
 
     </footer>
 
