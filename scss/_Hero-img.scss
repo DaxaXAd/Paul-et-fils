@@ -20,7 +20,7 @@
         width: 100%;
         padding: 10px;
 
-        .call{
+        .call {
             display: inline-block;
             background-color: $black;
             color: $white;
@@ -28,7 +28,7 @@
             // width: 80px;
             // height: 50px;     
         }
-        
+
         .devis-infos {
             display: inline-block;
             background-color: $orange;
@@ -36,6 +36,26 @@
             padding: 10px;
             // width: 80px;
             // height: 50px;
+        }
+    }
+}
+
+@media (min-width: 720px) {
+    .hero__img {
+        height: 100vh;
+        padding-left: 50px;
+
+        .hero__img-infos {
+            grid-template-columns: repeat(2, 20%);
+            grid-template-rows: repeat(1, 30%);
+            width: 50%;
+            height: 30%;
+        }
+
+        h1 {
+            font-size: 100px;
+            padding-bottom: 15px;
+            padding-right: 33%;
         }
     }
 }

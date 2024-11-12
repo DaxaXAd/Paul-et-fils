@@ -75,7 +75,7 @@ p {
   }
   .header__menu .header__menu-logo svg {
     height: 100%;
-    width: 50px;
+    width: 60px;
     fill: #ffffff;
   }
   .header__menu nav ul li {
@@ -114,6 +114,23 @@ p {
   padding: 10px;
 }
 
+@media (min-width: 720px) {
+  .hero__img {
+    height: 100vh;
+    padding-left: 50px;
+  }
+  .hero__img .hero__img-infos {
+    grid-template-columns: repeat(2, 20%);
+    grid-template-rows: repeat(1, 30%);
+    width: 50%;
+    height: 30%;
+  }
+  .hero__img h1 {
+    font-size: 100px;
+    padding-bottom: 15px;
+    padding-right: 33%;
+  }
+}
 .devis__title {
   background-color: #ff5929;
   color: #000000;

@@ -39,7 +39,7 @@
 
 @media (min-width:720px) {
 
-    // section header-menu
+    // section header__menu
     .header__menu {
         flex-direction: row;
         justify-content: space-between;
@@ -47,7 +47,7 @@
         .header__menu-logo {
             svg {
                 height: 100%;
-                width: 50px;
+                width: 60px;
                 fill: $white;
             }
         }
