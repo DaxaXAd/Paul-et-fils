@@ -447,4 +447,68 @@ p {
   .footer h3 {
     padding-bottom: 10px;
   }
+}
+.about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.about .about__back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ff5929;
+}
+.about .about__back .back-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.about .about__back .back-container h2 {
+  color: #ffffff;
+}
+
+@media (min-width: 720px) {
+  .about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+  }
+  .about .about__back {
+    display: flex;
+    flex-direction: row;
+    background-color: #ff5929;
+    width: 80%;
+    height: 100%;
+  }
+  .about .about__back .back-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  .about .about__back .back-container h2 {
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 110px;
+  }
+  .about .about__parag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .about .about__parag p {
+    font-size: 18px;
+    width: 40%;
+  }
 }/*# sourceMappingURL=main.css.map */

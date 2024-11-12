@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Font-family Open Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Pacifico&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&display=swap"
+        rel="stylesheet">
+    <title>Contact</title>
+</head>
+
+<body>
+    <header> <!-- Header with our menu nav -->
+        <div class="header__menu">
+            <div class="header__menu-logo"> <!-- Contain logo for Paul-et-fils -->
+                <svg xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                    <path
+                        d="M112 0C85.5 0 64 21.5 64 48l0 48L16 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 208 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 160l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 176 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 224l-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 144 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 288l0 128c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-64 0-32 0-18.7c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7L416 96l0-48c0-26.5-21.5-48-48-48L112 0zM544 237.3l0 18.7-128 0 0-96 50.7 0L544 237.3zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
+                </svg>
+            </div>
+            <nav> <!-- nav with link to out different pages -->
+                <ul>
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="about.html">A propos</a>
+                    </li>
+                    <li>
+                        <a href="services.html">Services</a>
+                    </li>
+                    <li>
+                        <a href="conseils.html">Conseils</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <button><a href="#devis">Devis gratuit</a></button>
+
+        </div>
+    </header>
+
+    <section> <!-- section à propos -->
+        <div class="about">
+            <div class="about__back">
+                <div class="back-container">
+                    <h2>VOTRE DEMENAGEMENT</h2>
+                </div>
+            </div>
+            <div class="about__parag">
+                <p>Paragraphe. Double cliquez ici ou cliquez sur Modifier texte pour ajouter votre propre text
+                    ou
+                    changer de police. Décrivez vos services à vos visiteurs.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="devis"> <!-- section devis -->
+        <div class="devis__title">
+            <h2>Votre devis gratuit</h2>
+            <p>Paragraphe. Cliquez ici pour ajouter votre propre texte et le modifier.</p>
+        </div>
+        <div class="form__devis"> <!-- form for devis gratuit -->
+            <form action="/submit_form">
+                <div class="row"> <!-- class used when in desktop to align two by two in line -->
+                    <label for="start">Ville déménagement *</label>
+                    <input type="text" name="start" id="start">
+
+                    <label for="end">Ville emménagement *</label>
+                    <input type="text" name="end" id="end">
+                </div>
+
+                <div class="row">
+                    <label for="date_move">Date déménagement *</label>
+                    <input type="date" name="date_move" required>
+                    <!-- select to chose the number of room 1 to 20 -->
+                    <label for="number">Nombre de pièces *:</label>
+                    <select id="number" name="number" required>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                    </select>
+                </div>
+
+                <div class="row">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
+
+                    <label for="phone">Téléphone</label>
+                    <input type="tel" id="phone" name="phone">
+                </div>
+
+            </form>
+        </div>
+
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="license">
+                <ul>
+                    <li>
+                        <svg xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 640 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                            <path
+                                d="M112 0C85.5 0 64 21.5 64 48l0 48L16 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 208 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 160l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 176 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 224l-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 144 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 288l0 128c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-64 0-32 0-18.7c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7L416 96l0-48c0-26.5-21.5-48-48-48L112 0zM544 237.3l0 18.7-128 0 0-96 50.7 0L544 237.3zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
+                        </svg>
+                        <p>Paul et Fils</p>
+                    </li>
+                    <li>
+                        <p>Numéro de licence : 123-456-7890</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="contact">
+                <ul>
+                    <li>
+                        <h3>CONTACT</h3>
+                    </li>
+                    <li>
+                        <p>Tél : 01 23 45 67 89</p>
+                    </li>
+                    <li>
+                        <p>E-mail : info@monsite.fr</p>
+                    </li>
+                    <li>
+                        <p>15 rue du château, 75001 Paris, France</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="horaires">
+                <ul>
+                    <li>
+                        <h3>HORAIRES D'OUVERTURES</h3>
+                    </li>
+                    <li>
+                        <p>Lun-Ven : 7h - 22h</p>
+                    </li>
+                    <li>
+                        <p>Samedi : 8h - 22h</p>
+                    </li>
+                    <li>
+                        <p>Dimanche : 8h - 23h</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="resources">
+                <ul>
+                    <li>
+                        <h3>
+                            RESSOURCES
+                        </h3>
+                    </li>
+                    <li>
+                        <p>
+                            Adresses
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Conseils
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            FAQ
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Mentions légales
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Politique en matière de cookies
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Politique de confidentialité
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Conditions d’utilisation
+                        </p>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
