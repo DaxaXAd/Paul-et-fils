@@ -11,6 +11,12 @@ img {
   max-width: 100%;
 }
 
+svg {
+  fill: #ffffff;
+  width: 20px;
+  height: 20px;
+}
+
 h1 {
   color: #ffffff;
   font-size: x-large;
@@ -182,7 +188,15 @@ p {
 
 .footer {
   background-color: #000000;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer .license {
+  text-align: left;
+}
+.footer .license li {
+  list-style: none;
 }/*# sourceMappingURL=main.css.map */
