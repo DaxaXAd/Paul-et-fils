@@ -1,13 +1,12 @@
 .grid__containers {
     display: grid;
-    grid-column: 1fr;
+    grid-template-columns: 1fr;
     gap: 20px;
     width: 100%;
 
     .grid__containers-items {
         text-align: left;
         margin: 20px;
-        line-height: 3px;
 
         .btn__orange {
             margin-top: 4px;
@@ -18,4 +17,12 @@
 .services__h2 {
     text-align: center;
     margin-bottom: 5px;
+}
+
+@media (min-width:720px) {
+    .grid__containers{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap:20px;
+    }
 }
