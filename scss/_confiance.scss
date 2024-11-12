@@ -42,3 +42,35 @@
         padding: 50px;
     }
 }
+
+@media (min-width:720px) {
+    .container__confiance{
+        flex-direction: row;
+        justify-content: space-around;
+        text-align: flex-start;
+        width: 100%;
+
+        .confiance-dist{
+            padding: 100px;
+            
+
+            h2{
+                font-size: 30px;
+            }
+        }
+        .confiance-asssurance{
+            padding: 100px;
+            
+            h2{
+                font-size: 40px;
+            }
+        }
+        .confiance-taux{
+            padding: 100px;
+            
+            h2{
+                font-size: 30px;
+            }
+        }
+    }
+}

@@ -299,6 +299,32 @@ p {
   padding: 50px;
 }
 
+@media (min-width: 720px) {
+  .container__confiance {
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: flex-start;
+    width: 100%;
+  }
+  .container__confiance .confiance-dist {
+    padding: 100px;
+  }
+  .container__confiance .confiance-dist h2 {
+    font-size: 30px;
+  }
+  .container__confiance .confiance-asssurance {
+    padding: 100px;
+  }
+  .container__confiance .confiance-asssurance h2 {
+    font-size: 40px;
+  }
+  .container__confiance .confiance-taux {
+    padding: 100px;
+  }
+  .container__confiance .confiance-taux h2 {
+    font-size: 30px;
+  }
+}
 .avis {
   display: flex;
   flex-direction: column;
