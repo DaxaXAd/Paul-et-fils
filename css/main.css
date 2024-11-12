@@ -192,6 +192,21 @@ p {
   padding: 50px;
 }
 
+.avis {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.avis .avis_img {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.avis .avis_img svg {
+  fill: #000000;
+}
+
 .footer {
   background-color: #000000;
   color: #ffffff;

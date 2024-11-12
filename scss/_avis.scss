@@ -1,0 +1,17 @@
+.avis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .avis_img {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        svg {
+            fill: $black;
+
+        }
+        
+    }
+}
