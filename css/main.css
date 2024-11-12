@@ -119,13 +119,6 @@ p {
   border: none;
 }
 
-.footer {
-  background-color: #000000;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
-}
-
 .grid__containers {
   display: grid;
   grid-column: 1fr;
@@ -144,4 +137,11 @@ p {
 .services__h2 {
   text-align: center;
   margin-bottom: 5px;
+}
+
+.footer {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }/*# sourceMappingURL=main.css.map */
