@@ -1,0 +1,16 @@
+.grid__containers {
+    display: grid;
+    grid-column: 1fr;
+    gap: 20px;
+    width: 100%;
+
+    .grid__containers-items {
+        text-align: left;
+        
+    }
+}
+
+.services__h2 {
+    text-align: center;
+    margin-bottom: 5px;
+}

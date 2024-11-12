@@ -24,7 +24,7 @@
                         d="M112 0C85.5 0 64 21.5 64 48l0 48L16 96c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 208 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 160l-16 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l16 0 176 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 224l-48 0c-8.8 0-16 7.2-16 16s7.2 16 16 16l48 0 144 0c8.8 0 16 7.2 16 16s-7.2 16-16 16L64 288l0 128c0 53 43 96 96 96s96-43 96-96l128 0c0 53 43 96 96 96s96-43 96-96l32 0c17.7 0 32-14.3 32-32s-14.3-32-32-32l0-64 0-32 0-18.7c0-17-6.7-33.3-18.7-45.3L512 114.7c-12-12-28.3-18.7-45.3-18.7L416 96l0-48c0-26.5-21.5-48-48-48L112 0zM544 237.3l0 18.7-128 0 0-96 50.7 0L544 237.3zM160 368a48 48 0 1 1 0 96 48 48 0 1 1 0-96zm272 48a48 48 0 1 1 96 0 48 48 0 1 1 -96 0z" />
                 </svg>
             </div>
-            <nav> <!-- contain link to out different pages -->
+            <nav> <!-- nav with link to out different pages -->
                 <ul>
                     <li>
                         <a href="index.html">Accueil</a>
@@ -52,9 +52,9 @@
 
     <main>
 
-        <section>
+        <section> <!-- section for hero-img -->
             <div class="hero__img">
-                <div class="hero__text">
+                <div class="hero__text"> <!-- text on hero-img -->
                     <h1>Déménager n'a jamais été aussi facile</h1>
                 </div>
                 <div class="hero__img-infos">
@@ -75,62 +75,116 @@
 
         </section>
 
-        <section> <!-- section services -->
-            <h2></h2>
-            <div class="grid__services">
-                <div class="grid__container">
-                    <div>
-                        <img src="images/2hommes-camionnette.webp" alt="2 hommes et camionnette">
-                        <h2>Déménagement à proximité</h2>
-                        <p class="container__parag">Paragraphe. Cliquez ici pour ajoutez votre texte.<br> Présentez-vous
-                            et votre entreprise.</p>
-                        <a href="services.html">
-                            <button class="btn__orange">Lire plus</button>
-                        </a>
-                    </div>
+        <section> <!-- section services listing all services-->
+            <h2 class="services__h2">Nos services</h2>
 
-                    <div>
-                        <img src="images/camionnette.webp" alt="camionnette">
-                        <h2>Déménagement longue distance</h2>
-                        <p class="container__parag">Paragraphe. Cliquez ici pour ajouter votre propre
-                            texte.<br>Présentez-vous et votre entreprise.</p>
-                        <a href="services.html">
-                            <button class="btn__orange">Lire plus</button>
-                        </a>
-                    </div>
+            <div class="grid__container"> <!-- container with the differents services -->
+                <div class="grid__containers-items">
+                    <img src="images/2hommes-camionnette.webp" alt="2 hommes et camionnette">
+                    <h2>Déménagement à proximité</h2>
+                    <p class="container__parag">Paragraphe. Cliquez ici pour ajoutez votre texte.<br> Présentez-vous
+                        et votre entreprise.</p>
+                    <!-- button to redirect users -->
+                    <a href="services.html">
+                        <button class="btn__orange">Lire plus</button>
+                    </a>
+                </div>
 
-                    <div>
-                        <img src="images/garage.webp" alt="garage">
-                        <h2>Services de stockage</h2>
-                        <p class="container__parag">Paragraphe. Cliquez ici pour ajouter votre propre
-                            texte.<br>Présentez-vous et votre entreprise.</p>
-                        <a href="services.html">
-                            <button class="btn__orange">Lire plus</button>
-                        </a>
-                    </div>
+                <div class="grid__containers-items">
+                    <img src="images/camionnette.webp" alt="camionnette">
+                    <h2>Déménagement longue distance</h2>
+                    <p class="container__parag">Paragraphe. Cliquez ici pour ajouter votre propre
+                        texte.<br>Présentez-vous et votre entreprise.</p>
+                    <a href="services.html">
+                        <button class="btn__orange">Lire plus</button>
+                    </a>
+                </div>
 
-                    <div>
-                        <img src="images/carton.webp" alt="carton">
-                        <h2>Emballer et déballer</h2>
-                        <p class="container__parag">Paragraphe. Cliquez ici pour ajouter votre propre
-                            texte.<br>Présentez-vous et votre entreprise.</p>
-                        <a href="services.html">
-                            <button class="btn__orange">Lire plus</button>
-                        </a>
-                    </div>
+                <div class="grid__containers-items">
+                    <img src="images/garage.webp" alt="garage">
+                    <h2>Services de stockage</h2>
+                    <p class="container__parag">Paragraphe. Cliquez ici pour ajouter votre propre
+                        texte.<br>Présentez-vous et votre entreprise.</p>
+                    <a href="services.html">
+                        <button class="btn__orange">Lire plus</button>
+                    </a>
+                </div>
+
+                <div class="grid__containers-items">
+                    <img src="images/carton.webp" alt="carton">
+                    <h2>Emballer et déballer</h2>
+                    <p class="container__parag">Paragraphe. Cliquez ici pour ajouter votre propre
+                        texte.<br>Présentez-vous et votre entreprise.</p>
+                    <a href="services.html">
+                        <button class="btn__orange">Lire plus</button>
+                    </a>
                 </div>
             </div>
 
         </section>
 
         <section> <!-- section devis -->
+            <div class="devis__title">
+                <h2>Votre devis gratuit</h2>
+                <p>Paragraphe. Cliquez ici pour ajouter votre propre texte et le modifier.</p>
+            </div>
+            <div class="form__devis">
+                <form action="/submit_form">
+                    <div class="row">
+                        <label for="start">Ville déménagement *</label>
+                        <input type="text" name="start" id="end">
+                        <label for="end">Ville emménagement *</label>
+                        <input type="text" name="end" id="end">
+                    </div>
+
+                    <div class="row">
+                        <label for="date_move">Date déménagement *</label>
+                        <input type="date" name="date_move" required/>
+                        <!-- select to chose the number of room 1 to 20 -->
+                        <label for="number">Nombre de pièces *:</label>
+                        <select id="number" name="number" required>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                            <option value="7">7</option>
+                            <option value="8">8</option>
+                            <option value="9">9</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                            <option value="13">13</option>
+                            <option value="14">14</option>
+                            <option value="15">15</option>
+                            <option value="16">16</option>
+                            <option value="17">17</option>
+                            <option value="18">18</option>
+                            <option value="19">19</option>
+                            <option value="20">20</option>
+                        </select>
+                    </div>
+
+                    <div class="row row__2">
+                        <label for="name">Nom :</label>
+                        <input type="text" id="name" name="name" required>
+
+                        <label for="phone">Téléphone</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+
+                </form>
+            </div>
 
         </section>
 
     </main>
 
     <footer>
-        <div class="footer"></div>
+        <div class="footer">
+
+        </div>
 
     </footer>
 
