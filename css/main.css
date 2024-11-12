@@ -331,19 +331,39 @@ p {
   justify-content: center;
   align-items: center;
 }
-.avis .avis_img {
+.avis .avis_txt {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
 }
-.avis .avis_img p {
+.avis .avis_txt p {
   padding-left: 20px;
   padding-right: 20px;
 }
-.avis .avis_img svg {
+.avis .avis_txt svg {
   fill: #000000;
 }
+.avis .avis__img {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.avis .avis__img img {
+  width: 100px;
+}
 
+@media (min-width: 720px) {
+  .avis .avis__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .avis .avis__img img {
+    width: 160px;
+  }
+}
 .footer {
   background-color: #000000;
   color: #ffffff;
