@@ -564,4 +564,12 @@ p {
   .adr__container ul li p {
     font-size: 14px;
   }
+}
+.map {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+}
+.map iframe {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
