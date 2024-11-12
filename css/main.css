@@ -139,6 +139,47 @@ p {
   margin-bottom: 5px;
 }
 
+.confiance {
+  max-width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/2hommes-portent-un-meuble.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.confiance .confiance__txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-size: large;
+  width: 100%;
+  padding-top: 300px;
+  padding-bottom: 300px;
+}
+
+.container__confiance {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.container__confiance .confiance-dist {
+  background-color: black;
+  color: #ffffff;
+  padding: 50px;
+}
+.container__confiance .confiance-assurance {
+  background-color: #ff5929;
+  color: #ffffff;
+  padding: 50px;
+}
+.container__confiance .confiance-taux {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 50px;
+}
+
 .footer {
   background-color: #000000;
   display: grid;
