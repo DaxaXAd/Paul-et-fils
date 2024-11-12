@@ -203,6 +203,10 @@ p {
   flex-direction: row;
   justify-content: space-around;
 }
+.avis .avis_img p {
+  padding-left: 20px;
+  padding-right: 20px;
+}
 .avis .avis_img svg {
   fill: #000000;
 }
