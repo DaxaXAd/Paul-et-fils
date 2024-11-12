@@ -70,22 +70,24 @@ p {
   justify-content: center;
   text-align: left;
 }
-.hero__img .hero__img-text {
-  margin-left: 10px;
-}
 .hero__img .hero__img-infos {
   display: grid;
-  grid-template-columns: repeat(2, 23%);
-  grid-template-rows: repeat(1, 23%);
-  height: 100px;
+  grid-template-columns: repeat(2, 30%);
+  grid-template-rows: repeat(1, 30%);
+  width: 100%;
   padding: 10px;
 }
 .hero__img .hero__img-infos .call {
+  display: inline-block;
   background-color: #000000;
   color: #ffffff;
   padding: 10px;
-  height: 60px;
-  width: 60px;
+}
+.hero__img .hero__img-infos .devis-infos {
+  display: inline-block;
+  background-color: #ff5929;
+  color: #000000;
+  padding: 10px;
 }
 
 .footer {
