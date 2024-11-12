@@ -164,6 +164,37 @@ p {
   border: none;
 }
 
+@media (min-width: 720px) {
+  #devis {
+    background-color: #ff5929;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  #devis .devis__title h2 {
+    font-size: 50px;
+  }
+  #devis .form__devis {
+    height: 200px;
+    font-size: 15px;
+    width: 50%;
+    height: 400px;
+  }
+  #devis .form__devis .row {
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 10%);
+    row-gap: 18px;
+  }
+  #devis .form__devis .row .label {
+    display: inline-block;
+  }
+  #devis .form__devis .row input {
+    display: inline-block;
+    text-align: center;
+  }
+}
 .about {
   display: flex;
   flex-direction: row;
