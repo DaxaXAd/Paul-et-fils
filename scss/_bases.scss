@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: $font-family;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+h1 {
+    color: $white;
+    font-size: x-large;
+}
+
+button {
+    background-color: $orange;
+    color: $black;
+    border: none;
+    outline: 0;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+p {
+    font-size: 10px;
+}

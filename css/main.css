@@ -1,1 +1,96 @@
-/*# sourceMappingURL=main.css.map */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Open Sans", serif;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: x-large;
+}
+
+button {
+  background-color: #ff5929;
+  color: #000000;
+  border: none;
+  outline: 0;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+p {
+  font-size: 10px;
+}
+
+.header__menu {
+  background-color: #000000;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__menu .header__menu-logo svg {
+  height: 50px;
+  width: 50px;
+}
+.header__menu nav {
+  font-family: "Open Sans", serif;
+  align-self: center;
+}
+.header__menu nav ul li {
+  text-align: left;
+  list-style: none;
+}
+.header__menu nav ul li a {
+  text-decoration: none;
+  color: #ffffff;
+}
+.header__menu nav ul li a:hover {
+  color: #ff5929;
+}
+
+.hero__img {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/2hommes-camionnette.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
+.hero__img .hero__img-text {
+  margin-left: 10px;
+}
+.hero__img .hero__img-infos {
+  display: grid;
+  grid-template-columns: repeat(2, 23%);
+  grid-template-rows: repeat(1, 23%);
+  height: 100px;
+  padding: 10px;
+}
+.hero__img .hero__img-infos .call {
+  background-color: #000000;
+  color: #ffffff;
+  padding: 10px;
+  height: 60px;
+  width: 60px;
+}
+
+.footer {
+  background-color: #000000;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}/*# sourceMappingURL=main.css.map */

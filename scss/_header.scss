@@ -1,0 +1,34 @@
+.header__menu {
+    background-color: $black;
+    color: $white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .header__menu-logo {
+        svg {
+            height: 50px;
+            width: 50px;
+        }
+    }
+
+    nav {
+        font-family: $font-family;
+        align-self: center;
+        ul {
+            li {
+                text-align: left; //align text correctly on the left
+                list-style: none;
+    
+                a {
+                    text-decoration: none;
+                    color: $white;
+                }
+
+                a:hover {
+                    color: $orange;
+                }
+            }
+        }
+    }
+}
