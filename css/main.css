@@ -572,4 +572,38 @@ p {
 }
 .map iframe {
   width: 100%;
+}
+
+.sector__activ {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.sector__activ h2 {
+  font-size: 45px;
+}
+.sector__activ .activ-list {
+  display: grid;
+  grid-template-columns: repeat(2, 110px);
+  grid-template-rows: repeat(1, 70px);
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 40px;
+}
+.sector__activ .activ-list ul li {
+  list-style: none;
+}
+
+@media (min-width: 720px) {
+  .sector__activ h2 {
+    font-size: 60px;
+  }
+  .sector__activ .activ-list {
+    -moz-column-gap: 50px;
+         column-gap: 50px;
+    row-gap: 40px;
+  }
 }/*# sourceMappingURL=main.css.map */
