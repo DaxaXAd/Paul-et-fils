@@ -165,16 +165,36 @@ p {
 }
 
 .about {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
 }
-.about .about__back button {
+.about .about__back {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ff5929;
+}
+.about .about__back .back-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+.about .about__back .back-container button {
   margin-top: 8px;
   background-color: #000000;
   color: #ffffff;
 }
-.about .about__back img {
+.about .about__back .back-container h2 {
+  color: #ffffff;
+}
+.about .about__back .back-container img {
   margin-top: 10px;
 }
 
