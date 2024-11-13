@@ -39,11 +39,12 @@
         }
     }
 
-    button {
-        a {
-            text-decoration: none;
-            color: $black;
-        }
+    .button_dev {
+        background-color: $orange;
+        width:25%;
+        height: 100%;
+        text-align: center;
+        text-decoration: none;
     }
 }
 
@@ -69,6 +70,13 @@
                     padding: 0 5px;
                 }                    
             }
+        }
+
+        .button_dev {
+            background-color: $orange;
+            width:9%;
+            padding: 20px;
+            
         }
     }
     
