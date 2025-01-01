@@ -184,7 +184,7 @@
                 <p>Paragraphe. Cliquez ici pour ajouter votre propre texte et le modifier.</p>
             </div>
             <div class="form__devis"> <!-- form for devis gratuit -->
-                <form action="/submit_form">
+                <form action="/submit_form" method="post">
                     <div class="row"> <!-- class used when in desktop to align two by two in line -->
                         <label for="start">Ville déménagement *</label>
                         <input type="text" name="start" id="start">
@@ -223,12 +223,15 @@
                     </div>
 
                     <div class="row">
-                        <label for="name">Nom :</label>
+                        <label for="name">Nom *:</label>
                         <input type="text" id="name" name="name" required>
 
-                        <label for="phone">Téléphone</label>
+                        <label for="phone">Téléphone *:</label>
                         <input type="tel" id="phone" name="phone">
                     </div>
+                    
+                    <button type="submit" class="button-form">Envoyer</button>
+                    
 
                 </form>
             </div>

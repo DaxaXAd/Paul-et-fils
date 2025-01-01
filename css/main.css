@@ -46,12 +46,12 @@ p {
   align-items: center;
   gap: 10px;
 }
-.header__menu .header__menu-logo svg {
+.header__menu-logo svg {
   height: 50px;
   width: 50px;
   fill: #ffffff;
 }
-.header__menu .header__menu-logo svg :hover {
+.header__menu-logo svg :hover {
   fill: #ff5929;
 }
 .header__menu nav {
@@ -178,6 +178,11 @@ p {
   padding: 10px;
   border: none;
 }
+.form__devis .button-form {
+  margin-top: 8px;
+  background-color: #000000;
+  color: #ffffff;
+}
 
 @media (min-width: 720px) {
   #devis {
@@ -250,13 +255,13 @@ p {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    padding-top: 5px;
   }
   .about .about__back {
     display: flex;
     flex-direction: row;
     background-color: #ff5929;
     width: 100%;
-    height: 99%;
   }
   .about .about__back .back-container {
     display: flex;

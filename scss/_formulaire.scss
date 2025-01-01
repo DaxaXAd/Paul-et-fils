@@ -34,6 +34,12 @@
             border: none;
         }
     }
+
+    .button-form {
+        margin-top: 8px;
+        background-color: $black;
+        color: $white;
+    }
 }
 
 @media (min-width:720px) {
